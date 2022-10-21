@@ -1,0 +1,154 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* styling */
+
+
+body {
+    font-size: 14px;
+    font-family: "Inter", serif !important;
+    background-color: #ffffff;
+    color: #343434;
+    font-size: 16px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.general-content {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    padding-bottom: 2rem !important;
+}
+
+.section-heading {
+    padding-bottom: 3rem;
+}
+
+.display-subheading {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 0.5rem;;
+    border-bottom: 0.7rem solid #ffce9a !important;
+    margin-bottom: 2rem;
+}
+
+.header-img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: left;
+}
+
+.original-issues-flex {
+    display: flex;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 6rem;
+}
+
+.screenshot-image {
+    width: 27rem;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0 1.5rem 0 1.5rem;
+    flex-grow: 0.6;
+}
+
+
+.issues {
+    width: 37rem;
+    margin: 0 auto 0 auto;
+    padding: 0 1.5rem 0 1.5rem;
+    flex-grow: 0.75;
+}
+
+.issues .usability {
+    padding-bottom: 5rem;
+}
+
+.issues .accessibility {
+    padding-bottom: 5rem;
+}
+
+.img-prototypes-flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto 0 auto;
+    padding-bottom: 6rem;
+}
+
+.img-prototypes-flex .desktop {
+    min-width: 15rem;
+    width: 40%;
+    flex-grow: 1;
+    padding-right: 1rem;
+    margin: 0 auto 0 auto;
+}
+
+.img-prototypes-flex .ipad {
+    min-width: 12rem;
+    width: 30%;
+    flex-grow: 0.8;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto 0 auto;
+}
+
+.img-prototypes-flex .iphone {
+    min-width: 10rem;
+    width: 20%;
+    flex-grow: 0.65;
+    padding-left: 1rem;
+    margin: 0 auto 0 auto;
+
+}
+
+.img-prototypes-flex p {
+    width: 100%;
+}
+
+.drop-shadow {
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, .2);
+}
+.style-guide {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 5rem;
+}

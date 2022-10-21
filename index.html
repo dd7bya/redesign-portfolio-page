@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  </script>
+
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+
+    <title>Belly Bombz, Redesigned</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">dd7bya's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1 class="display-1 fw-bold text-center">Belly Bombz, Redesigned</h1>
+        <p class="general-content">I redesigned the homepage of the <a href="https://bellybombz.com/">Belly Bombz
+                website</a> because I
+            found it surprising that the website is poorly designed considering that the restaurant is very well known
+            in the Southern California area, where I'm from.</p>
+
+        <div class="header-img">
+            <img src="images/hifi-prototypes.png" alt="desktop, iPad, and iPhone prototypes">
+            <p class="fst-italic">Redesigned website, live <a href="redesign-page/index.html">here</a>.</p>
+        </div>
+
+        <div class="section-heading">
+            <h2 class="display-5 fw-bold text-center">The Original Design</h2>
+            <p class="fst-italic text-center">Original website, live <a href="https://bellybombz.com/">here</a>.</p>
+        </div>
+        <div class="original-issues-flex">
+
+            <img src="images/bellybombz_home.png" class="screenshot-image"
+                alt="screenshot of original Belly Bombz homepage">
+
+            <div class="issues">
+                <div class="usability">
+                    <h3 class="display-subheading fw-bold">Usability Issues</h3>
+                    <p>To identify issues with the current interface, I analyzed its learnability, memorability, and
+                        efficiency.<br><br>
+                        <span class="fw-bold">Learnability:</span> Assuming that the typical user is visiting the page
+                        to view the restaurant's menu or place an order online, the current interface doesn't make it
+                        easy to learn to navigate.
+
+
+                    <ul>
+                        <li>Content and order of elements in navigation bar are unintuitive.</li>
+                        <li>Linked images in the header may mislead users to think it will lead them to the menu.</li>
+                        <li>Uninformative and repetitive image carousel.</li>
+                        <li>Prioritizes information about catering over the regular menu and ordering online.</li>
+                    </ul>
+                    </p>
+                    <p>
+
+                        <span class="fw-bold">Memorability:</span> Because the placement of content is unintuitive, the layout of the page is not particularly easy to remember.
+                    </p>
+                    <p>
+                        <span class="fw-bold">Efficiency:</span>
+                        The menu and link to order online should be quicker to access through multiple access points.
+
+                    <ul>
+                        <li>At certain viewport widths, the
+                            images at the top of the page stack on top of each other and force the user to scroll down a
+                            considerable amount to get to the content.</li>
+
+                        <li>Having the “Order
+                            online now” button lower on the page is inefficient to the user.</li>
+                    </ul>
+                    </p>
+                </div>
+
+
+
+                <div class="accessibility">
+                    <h3 class="display-subheading fw-bold">Accessibility Issues</h3>
+                    <p><span class="fw-bold">Pros:</span> High contrast makes text easy to read.</p>
+                    <p><span class="fw-bold">Cons:</span> The page is image-heavy, but lacks helpful alt tags. Many
+                        important text-heavy areas, such as the catering menu, are presented through images, making it
+                        impossible for screenreaders to interpret.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-heading">
+            <h2 class="display-5 fw-bold text-center">The Redesign</h2>
+            <p class="fst-italic text-center">Redesigned website, live <a href="https://github.com/dd7bya/redesign-page-deployed/settings/pages">here</a>.</p>
+        </div>
+        <h3 class="display-subheading fw-bold">Low-Fidelity Prototyping</h3>
+        <p class="fst-italic">View <span class="fw-bold">annotated prototypes</span> <a href="">here</a>.</p>
+
+        <div class="img-prototypes-flex">
+            <div class="desktop">
+                <p class="fst-italic">Low-fidelity prototype for desktop.</p>
+                <img src="images/lofi-desktop.png"
+                                    alt="low-fidelity prototype of website page for desktop">
+            </div>
+            <div class="ipad">
+                <p class="fst-italic">Low-fidelity prototype for tablet.</p>
+                <img src="images/lofi-ipad.png" alt="low-fidelity prototype of website page for tablet">
+            </div>
+            <div class="iphone">
+                <p class="fst-italic">Low-fidelity prototype for mobile.</p>
+                <img src="images/lofi-iphone.png" 
+                    alt="low-fidelity prototype of website page for mobile">
+            </div>
+        </div>
+
+        <h3 class="display-subheading fw-bold">Visual Design Guide</h3>
+
+
+        <img src="images/style_guide.png" class ="style-guide" alt="visual style guide for redesigned website">
+
+        <h3 class="display-subheading fw-bold">High-Fidelity Prototyping</h3>
+        <p class="fst-italic">View <span class="fw-bold">annotated prototypes</span> <a href="">here</a>.</p>
+
+        <div class="img-prototypes-flex">
+            <div class="desktop">
+                <p class="fst-italic">High-fidelity prototype for desktop.</p>
+                <img src="images/hifi-desktop.png" class="drop-shadow"
+                                    alt="high-fidelity prototype of website page for desktop">
+            </div>
+            <div class="ipad">
+                <p class="fst-italic">High-fidelity prototype for tablet.</p>
+                <img src="images/hifi-ipad.png" class="drop-shadow" alt="high-fidelity prototype of website page for tablet">
+            </div>
+            <div class="iphone">
+                <p class="fst-italic">High-fidelity prototype for mobile.</p>
+                <img src="images/hifi-iphone.png" class="drop-shadow"
+                    alt="high-fidelity prototype of website page for mobile">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
